@@ -10,4 +10,6 @@ echo ${create_user} ${user} ${pwuser}
 
 export create_user=false
 
+echo "Create User done"
+
 /usr/sbin/sshd -D
